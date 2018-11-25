@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace DiceRoll
 {
-    public partial class Main_window : Form
+    public partial class Grouping : Form
     {
-        public Main_window()
+        public Grouping()
         {
             InitializeComponent();
         }
 
-        private void Wain_window_Load(object sender, EventArgs e)
+        private void Cancel_Click(object sender, EventArgs e)
         {
+            // TODO: close without saving
+        }
 
+        private void Save_Click(object sender, EventArgs e)
+        {
+            // TODO: close with saving
         }
     }
 }
