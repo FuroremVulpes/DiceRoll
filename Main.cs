@@ -23,5 +23,23 @@ namespace DiceRoll
         {
 
         }
+
+        private void ChangeCustomTypeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomType ct = new CustomType();
+            ct.ShowDialog();
+        }
+
+        private void GroupManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GroupManaging gm = new GroupManaging();
+            gm.ShowDialog();
+        }
+
+        private void AddGroupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Grouping gr = new Grouping();
+            gr.ShowDialog();
+        }
     }
 }
